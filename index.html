@@ -557,7 +557,7 @@
     <div class="container">
         <header>
             <h1>💖 心动指数全面评估测试</h1>
-            <p class="subtitle">百分制多维度心动评估系统 - 基于心理学理论的深度情感评估</p>
+            <p class="subtitle">基于心理学理论的深度情感评估，探索你内心最真实的感觉</p>
             <!-- 小红书入口 -->
         	<div class="xiaohongshu-corner">
 	        	<a href="https://xhslink.com/m/4fdn9coKvxs" class="author-button"  title="访问作者小红书主页" target="_blank">
@@ -1081,6 +1081,12 @@
                 stepIndicator.style.display = 'none';
                 progressText.style.display = 'none';
                 resultSection.style.display = 'block';
+                
+                // 滚动到页面顶部
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
             }
         }
 
@@ -1487,6 +1493,12 @@
             // 显示介绍页面
             resultSection.style.display = 'none';
             introSection.style.display = 'block';
+            
+            // 滚动到页面顶部
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         }
     </script>
 </body>
